@@ -13,7 +13,7 @@ root.render(
        <Header />
         <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="/survey" element={<Survey />} />      
+            <Route path="/survey/:questionNumber" element={<Survey />} />      
         </Routes>
     </BrowserRouter>
   </React.StrictMode>,
